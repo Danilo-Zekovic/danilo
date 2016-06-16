@@ -1,3 +1,10 @@
+/**
+  * Danilo Zekovic
+  * Shell.js
+  * used to navigate the client side,
+  * it connects all the modules and functionality of the app
+  */
+
 import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, browserHistory, IndexRoute } from 'react-router'
