@@ -7,6 +7,8 @@ import Repos from './modules/Repos'
 import Repo from './modules/Repo'
 import Home from './modules/Home'
 
+import Header from './modules/Header'
+
 render((
   <Router history={browserHistory}>
     <Route path="/" component={App}>
@@ -15,6 +17,7 @@ render((
         <Route path="/repos/:userName/:repoName" component={Repo}/>
       </Route>
       <Route path="/about" component={About}/>
+    <Route path="/h" component={Header}/>
     </Route>
   </Router>
 ), document.getElementById('app'))
