@@ -1,6 +1,29 @@
 import React from 'react'
 import NavLink from './NavLink'
 
+var Hello = React.createClass({
+
+  getInitialState: function(){
+    return {
+      condition:false
+    }
+  },
+
+  handleClick :function(){
+    this.setState( { condition : !this.state.condition } );
+  },
+
+  render: function() {
+    return (
+      <div>
+        <div className={this.state.condition ? "foobar" :""}  >Hello {this.props.name}</div>
+        <button type="button" onClick={this.handleClick}>Change Condition</button>
+      </div>
+    )
+  }
+});
+
+
 export default React.createClass({
   contextTypes: {
     router: React.PropTypes.object
@@ -29,6 +52,7 @@ export default React.createClass({
             </form>
           </li>
         </ul>
+        <Hello name="World" />
         {this.props.children}
       </div>
     )
