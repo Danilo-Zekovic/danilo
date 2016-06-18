@@ -1,19 +1,26 @@
+/**
+  * Danilo Zekovic
+  * Navigation bar that will appear on every views
+  * Planing to move the logic to Header.js
+  */
+
 import React from 'react'
 import NavLink from './NavLink'
 
 export default React.createClass({
-
+  // if it does not work try wraping it in setTimeout(...)
+  // .measure takes callback as argument 
   measureNavbar() {
-    setTimeout(this.refs.navigation.measure(this.logNavbarLayout));
+    this.refs.navigation.measure(this.logNavbarLayout)
   },
-
+  // just printout for .measure()
   logNavbarLayout(ox, oy, width, height, px, py) {
-    console.log("ox: " + ox);
-    console.log("oy: " + oy);
-    console.log("width: " + width);
-    console.log("height: " + height);
-    console.log("px: " + px);
-    console.log("py: " + py);
+    console.log("ox: " + ox)
+    console.log("oy: " + oy)
+    console.log("width: " + width)
+    console.log("height: " + height)
+    console.log("px: " + px)
+    console.log("py: " + py)
   },
 
   getInitialState: function(){
@@ -23,11 +30,11 @@ export default React.createClass({
   },
 
   componentDidMount: function() {
-      window.addEventListener('scroll', this.handleScroll);
+      window.addEventListener('scroll', this.handleScroll)
   },
 
   componentWillUnmount: function() {
-      window.removeEventListener('scroll', this.handleScroll);
+      window.removeEventListener('scroll', this.handleScroll)
   },
 
   handleScroll: function(event) {
