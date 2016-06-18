@@ -2,10 +2,52 @@ import React from 'react'
 import NavLink from './NavLink'
 
 export default React.createClass({
+
+  measureNavbar() {
+    setTimeout(this.refs.navigation.measure(this.logNavbarLayout));
+  },
+
+  logNavbarLayout(ox, oy, width, height, px, py) {
+    console.log("ox: " + ox);
+    console.log("oy: " + oy);
+    console.log("width: " + width);
+    console.log("height: " + height);
+    console.log("px: " + px);
+    console.log("py: " + py);
+  },
+
+  getInitialState: function(){
+    return {
+      transform:"navbar navbar-custom navbar-fixed-top"
+    }
+  },
+
+  componentDidMount: function() {
+      window.addEventListener('scroll', this.handleScroll);
+  },
+
+  componentWillUnmount: function() {
+      window.removeEventListener('scroll', this.handleScroll);
+  },
+
+  handleScroll: function(event) {
+    let scrollTop = event.srcElement.body.scrollTop
+    if (scrollTop < 2){
+      this.setState({
+        transform: "navbar navbar-custom navbar-fixed-top"
+      });
+    }else{
+      this.setState({
+        transform: "navbar navbar-custom navbar-fixed-top top-nav-collapse"
+      });
+    }
+
+  },
+
   render() {
     return (
       <div>
-        <nav className="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <nav className={this.state.transform} role="navigation" ref="navigation">
           <div className="container">
             <div className="navbar-header">
               <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
