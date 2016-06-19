@@ -9,7 +9,7 @@ import NavLink from './NavLink'
 
 export default React.createClass({
   // if it does not work try wraping it in setTimeout(...)
-  // .measure takes callback as argument 
+  // .measure takes callback as argument
   measureNavbar() {
     this.refs.navigation.measure(this.logNavbarLayout)
   },
@@ -60,8 +60,8 @@ export default React.createClass({
               <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                 <i className="fa fa-bars"></i>
               </button>
-              <a className="navbar-brand page-scroll" href="#page-top">
-                <i className="fa fa-play-circle"></i>  <span className="light">Start</span> Bootstrap
+              <a className="navbar-brand page-scroll" href="/">
+                <i className="fa fa-play-circle"></i>  <span className="light">Danilo</span> Zekovic
               </a>
             </div>
 
