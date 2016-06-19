@@ -5,7 +5,66 @@
  */
 .foobar {
   background: blue;
+  background-image: url("../img/black-and-white-woman.jpg");
+  background-size: 100%;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
+
+.foobar2 {
+  z-index: -1;
+}
+
+.foo1 {
+  background-color: blue;
+  padding: 0;
+}
+
+.foo2 {
+  background-color: orange;
+  padding: 0;
+}
+
+/*
+=============================================
+*/
+.user-intro {
+  background-color: black;
+}
+
+.user-img {
+  padding: 4em;
+}
+
+.git-hub {
+  background-color: white;
+}
+
+.github-logo {
+  max-height: 14em;
+  margin: 0 auto; /* to center the logo */
+  padding: 2em;
+}
+
+.tech {
+  background-color: black;
+}
+
+.tech-logo {
+  height: 14em;
+  width: auto;
+  padding: 2em;
+  margin: 0 auto;
+}
+
+.subtitle {
+  margin: 1em 0 0 0;
+}
+/*
+=============================================
+*/
 
 body {
     width: 100%;
@@ -150,7 +209,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    /*background: url(../img/home2.jpg) no-repeat bottom center scroll;*/
+    background: url(../img/home2.jpg) no-repeat top center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
