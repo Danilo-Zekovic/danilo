@@ -74,6 +74,8 @@ export default React.createClass({
                 </li>
                 <li><NavLink to="/" onlyActiveOnIndex>Home</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
+                <li><NavLink to="/work">Work</NavLink></li>
+                <li><NavLink to="/contact">Contact</NavLink></li>
                 <li><NavLink to="/repos">Repos</NavLink></li>
               </ul>
             </div>
@@ -82,6 +84,26 @@ export default React.createClass({
 
         </nav>
         {this.props.children}
+        <footer className="footer container-fluid text-center">
+          <p>Copyright © Danilo Zekovic 2016</p>
+          <p>dzv9776@saintjoe.edu</p>
+          <p>Personal webpage</p>
+          <div>
+            <a href="https://github.com/Danilo-Zekovic/danilo" target="_blank">
+              <i className="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/Danilo-Zekovic/danilo" target="_blank">
+              <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/Danilo-Zekovic/danilo" target="_blank">
+              <i className="fa fa-google-plus-square fa-3x" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/Danilo-Zekovic" target="_blank">
+              <i className="fa fa-github-square fa-3x" aria-hidden="true"></i>
+            </a>
+
+          </div>
+        </footer>
       </div>
     )
   }
