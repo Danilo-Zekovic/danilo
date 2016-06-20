@@ -3,29 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-.foobar {
-  background: blue;
-  background-image: url("../img/black-and-white-woman.jpg");
-  background-size: 100%;
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  background-repeat: no-repeat;
-  background-position: bottom;
-}
 
-.foobar2 {
-  z-index: -1;
-}
-
-.foo1 {
-  background-color: blue;
-  padding: 0;
-}
-
-.foo2 {
-  background-color: orange;
-  padding: 0;
-}
 
 /*
 =============================================
@@ -62,6 +40,14 @@
 .subtitle {
   margin: 1em 0 0 0;
 }
+
+.footer {
+  background-color: gray;
+}
+
+.footer i {
+  padding : 0.4em;
+}
 /*
 =============================================
 */
@@ -71,7 +57,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background-color: #66b3ff;
+    background-color: #0052cc;
 }
 
 html {
