@@ -37,7 +37,7 @@ export default React.createClass({
           </div>
         </div>
 
-        <div className="git-hub foo2 container-fluid">
+        <div className="git-hub container-fluid">
           <div className="container">
             <a href="https://github.com/Danilo-Zekovic/danilo" target="_blank">
               <div>
