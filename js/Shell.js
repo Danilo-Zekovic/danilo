@@ -13,6 +13,8 @@ import About from './modules/About'
 import Repos from './modules/Repos'
 import Repo from './modules/Repo'
 import Home from './modules/Home'
+import Work from './modules/Work'
+import Contact from './modules/Contact'
 
 import Header from './modules/Header'
 
@@ -24,7 +26,8 @@ ReactDOM.render((
         <Route path="/repos/:userName/:repoName" component={Repo}/>
       </Route>
       <Route path="/about" component={About}/>
-    <Route path="/h" component={About}/>
+      <Route path="/work" component={Work}/>
+      <Route path="/contact" component={Contact}/>
     </Route>
   </Router>
 ), document.getElementById('app'))
