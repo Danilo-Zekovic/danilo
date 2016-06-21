@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import Header from './Header'
+
 export default React.createClass({
   render() {
     return (
@@ -22,6 +24,11 @@ export default React.createClass({
             </p>
           </div>
         </div>
+
+        <Header
+          title={'It Works'}
+          image={'http://vignette2.wikia.nocookie.net/theflash/images/d/d3/Jl-crisis(Flash).jpg/revision/latest?cb=20150329021949'}
+          />
 
       </div>
     )
