@@ -9,6 +9,16 @@
 =============================================
 */
 
+.blue {
+  background-color: #0052cc;
+  color : white;
+}
+
+.white {
+  background-color: white;
+  color : black;
+}
+
 .user-intro {
   background-color: black;
 }
