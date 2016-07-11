@@ -1,14 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Header from './Header'
 
 export default React.createClass({
   render() {
     return (
       <div>
-        <div className="user-intro container-fluid text-center">
-          <img className="img-circle img-responsive text-center github-logo" src='http://vignette2.wikia.nocookie.net/theflash/images/d/d3/Jl-crisis(Flash).jpg/revision/latest?cb=20150329021949'/>
-          <h1>About</h1>
-        </div>
+
+        <Header
+          title={'About'}
+          image={'http://vignette2.wikia.nocookie.net/theflash/images/d/d3/Jl-crisis(Flash).jpg/revision/latest?cb=20150329021949'}
+        />
 
         <div className="container-fluid">
           <div className="container text-center">
