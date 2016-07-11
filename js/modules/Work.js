@@ -11,7 +11,7 @@ export default React.createClass({
           image={'http://2.bp.blogspot.com/-GIS3_Ms5uHg/T8pLfIYZGNI/AAAAAAAAT48/FCFXTOdBsJs/s1600/young-justice-nightwing-robin-wallpaper.jpg'}
         />
 
-        <div className="container-fluid">
+      <div className="container-fluid white">
           <div className="container text-center">
             <h2 className="subtitle">Nightwing Report</h2>
             <p>Although I aspire to one day change the world with my code, one

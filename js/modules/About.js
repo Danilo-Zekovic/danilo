@@ -12,7 +12,7 @@ export default React.createClass({
           image={'http://vignette2.wikia.nocookie.net/theflash/images/d/d3/Jl-crisis(Flash).jpg/revision/latest?cb=20150329021949'}
         />
 
-        <div className="container-fluid">
+      <div className="container-fluid white">
           <div className="container text-center">
             <h2 className="subtitle">Flash</h2>
             <p>Although I aspire to one day change the world with my code, one
@@ -25,7 +25,7 @@ export default React.createClass({
           </div>
         </div>
 
-        <div className="container-fluid tech">
+        <div className="container-fluid blue">
           <div className="container text-center">
             <h2 className="subtitle">Education</h2>
             <p>
@@ -36,7 +36,7 @@ export default React.createClass({
           </div>
         </div>
 
-        <div className="container-fluid">
+        <div className="container-fluid white">
           <div className="container text-center">
             <h2 className="subtitle">Curent Interest</h2>
             <p>
@@ -49,7 +49,7 @@ export default React.createClass({
           </div>
         </div>
 
-        <div className="container-fluid tech">
+        <div className="container-fluid blue">
           <div className="container text-center">
             <h2 className="subtitle">Skills</h2>
             <p>
@@ -64,7 +64,7 @@ export default React.createClass({
           </div>
         </div>
 
-        <div className="container-fluid">
+        <div className="container-fluid white">
           <div className="container text-center">
             <h2 className="subtitle">Honors and Activities</h2>
             <p>

@@ -12,7 +12,7 @@ export default React.createClass({
           image={'http://static.comicvine.com/uploads/original/11115/111158530/4452265-screen+shot+2015-03-16+at+23.18.53.png'}
         />
 
-        <div className="container-fluid">
+      <div className="container-fluid white">
           <div className="container text-center">
             <h2 className="subtitle">Martian Comunication</h2>
             <div className="row">
