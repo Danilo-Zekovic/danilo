@@ -12,7 +12,7 @@ export default React.createClass({
     const title = this.props.title
     const image = this.props.image
     return (
-      <div className="user-intro container-fluid text-center">
+      <div className="blue container-fluid text-center">
         <img className="img-circle img-responsive text-center github-logo" src={image}/>
         <h1>{title}</h1>
       </div>
