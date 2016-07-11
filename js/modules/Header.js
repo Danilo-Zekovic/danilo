@@ -14,7 +14,7 @@ export default React.createClass({
     return (
       <div className="user-intro container-fluid text-center">
         <img className="img-circle img-responsive text-center github-logo" src={image}/>
-        <h1>About + {title}</h1>
+        <h1>{title}</h1>
       </div>
     )
   }

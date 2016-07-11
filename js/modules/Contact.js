@@ -7,28 +7,33 @@ export default React.createClass({
   render() {
     return (
       <div>
-        <div className="user-intro foo2 container-fluid text-center">
-          <img className="img-circle img-responsive text-center github-logo" src='http://static.comicvine.com/uploads/original/11115/111158530/4452265-screen+shot+2015-03-16+at+23.18.53.png'/>
-          <h1>Contact</h1>
-        </div>
+        <Header
+          title={'Contact'}
+          image={'http://static.comicvine.com/uploads/original/11115/111158530/4452265-screen+shot+2015-03-16+at+23.18.53.png'}
+        />
 
         <div className="container-fluid">
           <div className="container text-center">
             <h2 className="subtitle">Martian Comunication</h2>
-            <p>Although I aspire to one day change the world with my code, one
-              of the biggest passions in my life is learning. I want to start my
-              career by tackling problems for my clients and growing in my
-              experience with each line of code. I enjoy expressing creativity,
-              which I hope to use in creating software that impacts people's
-              lives.
-            </p>
+            <div className="row">
+              <div className="col-md-12">
+                  <i className="fa fa-envelope fa-3x" aria-hidden="true"></i>
+                  <a><p>dzv9776@saintjoe.edu</p></a>
+              </div>
+              <div className="col-md-12">
+                <a href="https://github.com/Danilo-Zekovic/danilo" target="_blank">
+                  <i className="fa fa-facebook-square fa-5x" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/Danilo-Zekovic/danilo" target="_blank">
+                  <i className="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/Danilo-Zekovic" target="_blank">
+                  <i className="fa fa-github-square fa-5x" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-
-        <Header
-          title={'It Works'}
-          image={'http://vignette2.wikia.nocookie.net/theflash/images/d/d3/Jl-crisis(Flash).jpg/revision/latest?cb=20150329021949'}
-          />
 
       </div>
     )
