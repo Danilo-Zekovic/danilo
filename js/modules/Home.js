@@ -18,7 +18,7 @@ export default React.createClass({
         </header>
         {/*<div className="foobar img-responsive"></div>*/}
 
-        <div className="user-intro foo2 container-fluid">
+        <div className="container-fluid white">
           <div className="container">
 
             <div className="row">
@@ -27,17 +27,20 @@ export default React.createClass({
                 <img className="img-circle img-responsive text-center user-img" src='http://assets2.ignimgs.com/2016/04/11/suicide-squad-harley-mallet-1280jpg-6846ad_1280w.jpg'/>
               </div>
               <div className="col-xs-12 col-md-7">
-                <h2 className="text-center subtitle">Harley Quinn</h2>
-                <p className="text-center">Harley Quinn (Harleen Frances Quinzel) is a fictional character
-                  appearing in American comic books published by DC Comics,
-                  commonly as an adversary of the superhero Batman. </p>
+                <h2 className="text-center subtitle">I am creative web developer</h2>
+                <p className="text-center">Although I aspire to one day change the world with my code, one
+                  of the biggest passions in my life is learning. I want to start my
+                  career by tackling problems for my clients and growing in my
+                  experience with each line of code. I enjoy expressing creativity,
+                  which I hope to use in creating software that impacts people's
+                  lives. </p>
               </div>
             </div>
 
           </div>
         </div>
 
-        <div className="git-hub container-fluid">
+        <div className="container-fluid blue">
           <div className="container">
             <a href="https://github.com/Danilo-Zekovic/danilo" target="_blank">
               <div>
@@ -48,7 +51,7 @@ export default React.createClass({
           </div>
         </div>
 
-        <div className="tech container-fluid">
+        <div className="container-fluid white">
           <div className="container">
             <div className="row">
 
@@ -69,12 +72,6 @@ export default React.createClass({
 
             </div>
           </div>
-        </div>
-
-
-
-        <div className="foo1">
-
         </div>
 
       </div>
