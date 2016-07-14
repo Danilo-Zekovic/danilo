@@ -76,7 +76,6 @@ export default React.createClass({
                 <li><NavLink to="/about">About</NavLink></li>
                 <li><NavLink to="/work">Work</NavLink></li>
                 <li><NavLink to="/contact">Contact</NavLink></li>
-                <li><NavLink to="/repos">Repos</NavLink></li>
               </ul>
             </div>
 
