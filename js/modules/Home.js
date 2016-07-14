@@ -23,11 +23,11 @@ export default React.createClass({
 
             <div className="row">
               <div className="col-xs-12 col-md-5">
-                {/*<div className="user-img img-circle"></div>*/}
-                <img className="img-circle img-responsive text-center user-img" src='http://assets2.ignimgs.com/2016/04/11/suicide-squad-harley-mallet-1280jpg-6846ad_1280w.jpg'/>
+                {/*<div className="u-img img-circle img-responsive"></div>*/}
+                <img className="img-circle img-responsive text-center user-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAmGAAAAJDczZjFmNGUyLTllMmItNGZkNC04MDkyLTAzMmQxMzJlOTUwZg.jpg"/>
               </div>
-              <div className="col-xs-12 col-md-7">
-                <h2 className="text-center subtitle">I am creative web developer</h2>
+              <div className="col-xs-12 col-md-7 statment">
+                <h2 className="text-center subtitle">Learning, Creativity, Development...</h2>
                 <p className="text-center">Although I aspire to one day change the world with my code, one
                   of the biggest passions in my life is learning. I want to start my
                   career by tackling problems for my clients and growing in my
@@ -56,17 +56,17 @@ export default React.createClass({
             <div className="row">
 
                 <h2 className="text-center subtitle">Technologies Used</h2>
-                <div className="col-md-3">
-                  <img className="img-responsive tech-logo" src="http://orig07.deviantart.net/35dd/f/2011/034/c/c/lexcorp_by_naughtyt-d38qnrs.png"/>
+                <div className="col-md-12 text-center">
+                  <img className="reactjs-icon img-responsive" src="https://www.levelupdevelopment.com/wp-content/uploads/2015/06/react-opti.png"/>
                 </div>
-                <div className="col-md-3">
-                  <img className="img-responsive tech-logo" src="http://orig07.deviantart.net/35dd/f/2011/034/c/c/lexcorp_by_naughtyt-d38qnrs.png"/>
+                <div className="col-md-4">
+                  <img className="img-responsive tech-logo nodejs-icon"/>
                 </div>
-                <div className="col-md-3">
-                  <img className="img-responsive tech-logo" src="http://orig07.deviantart.net/35dd/f/2011/034/c/c/lexcorp_by_naughtyt-d38qnrs.png"/>
+                <div className="col-md-4">
+                  <img className="img-responsive tech-logo bootstrap-icon"/>
                 </div>
-                <div className="col-md-3">
-                  <img className="img-responsive tech-logo" src="http://orig07.deviantart.net/35dd/f/2011/034/c/c/lexcorp_by_naughtyt-d38qnrs.png"/>
+                <div className="col-md-4">
+                  <img className="img-responsive tech-logo atom-icon"/>
                 </div>
 
 
