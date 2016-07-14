@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Header from './Header'
+import Square from './Square'
 
 export default React.createClass({
   render() {
@@ -48,8 +49,41 @@ export default React.createClass({
             </p>
           </div>
         </div>
+        {/*eventually planing to read all the info out of the JSON file or database*/}
 
         <div className="container-fluid blue">
+          <div className="container text-center">
+            <h2 className="subtitle">Programing Languages</h2>
+              <div className="row">
+
+
+                  <div className="col-md-3">
+                    <Square
+                      title="Javascript"
+                      />
+                  </div>
+                  <div className="col-md-3">
+                    <Square
+                      title="Java"
+                      />
+                  </div>
+                  <div className="col-md-3">
+                    <Square
+                      title="Python"
+                      />
+                  </div>
+                  <div className="col-md-3">
+                    <Square
+                      title="C"
+                      />
+                  </div>
+
+
+              </div>
+          </div>
+        </div>
+
+        <div className="container-fluid white">
           <div className="container text-center">
             <h2 className="subtitle">Skills</h2>
             <p>
@@ -59,6 +93,15 @@ export default React.createClass({
               Experience with: JSON, jQuery, MongoDB, Angular
               Single-page Applications (SPA) concepts and fundamentals
               Excellent communication and people skills
+              Fluent in Serbian and English, good in Hungarian, basic German
+            </p>
+          </div>
+        </div>
+
+        <div className="container-fluid blue">
+          <div className="container text-center">
+            <h2 className="subtitle">Languages</h2>
+            <p>
               Fluent in Serbian and English, good in Hungarian, basic German
             </p>
           </div>
