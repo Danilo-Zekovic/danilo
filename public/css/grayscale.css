@@ -19,16 +19,36 @@
   color : black;
 }
 
-.user-intro {
-  background-color: black;
+.statment {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding : 5em;
+}
+
+.u-img {
+    /* TODO make it work so that img doesn't have to be loaded from the web */
+    background: url(../img/daniloOSCON.jpg) no-repeat top center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.square {
+  padding: 1em;
+  margin: 0.4em;
+  color : white;
+  background-color: gray;
+}
+
+.scuare p {
+  margine: 0;
 }
 
 .user-img {
   padding: 4em;
-}
-
-.git-hub {
-  background-color: white;
 }
 
 .github-logo {
@@ -37,15 +57,30 @@
   padding: 2em;
 }
 
-.tech {
-  background-color: black;
-}
-
 .tech-logo {
-  height: 14em;
+  height: 20em;
   width: auto;
   padding: 2em;
   margin: 0 auto;
+  vertical-align: middle;
+}
+
+.nodejs-icon {
+  background: url(../img/nodejs-color.svg) no-repeat top center scroll;
+}
+
+.bootstrap-icon {
+  background: url(../img/bootstrap-color.svg) no-repeat top center scroll;
+}
+
+.atom-icon {
+  background: url(../img/atom-color.svg) no-repeat top center scroll;
+}
+
+.reactjs-icon {
+
+  margin: 0 auto;
+  padding: 1em 0 2em 0;
 }
 
 .subtitle {
@@ -53,7 +88,7 @@
 }
 
 .footer {
-  background-color: gray;
+  background-color: black;
 }
 
 .footer i {
@@ -90,14 +125,16 @@ h6 {
 }
 
 p {
-    margin: 0 0 25px;
+    /*margin: 0 0 25px;*/
+    margin: 0;
     font-size: 18px;
     line-height: 1.5;
 }
 
 @media(min-width:768px) {
     p {
-        margin: 0 0 35px;
+        /*margin: 0 0 35px;*/
+        margin: 0;
         font-size: 20px;
         line-height: 1.6;
     }
@@ -207,7 +244,7 @@ a:focus {
     text-align: center;
     color: #fff;
     /*background: url(../img/home2.jpg) no-repeat bottom center scroll;*/
-    background: url(../img/home3.jpg) no-repeat top center scroll;
+    background: url(../img/home4.png) no-repeat top center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
