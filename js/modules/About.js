@@ -15,19 +15,6 @@ export default React.createClass({
 
       <div className="container-fluid white">
           <div className="container text-center">
-            <h2 className="subtitle">Flash</h2>
-            <p>Although I aspire to one day change the world with my code, one
-              of the biggest passions in my life is learning. I want to start my
-              career by tackling problems for my clients and growing in my
-              experience with each line of code. I enjoy expressing creativity,
-              which I hope to use in creating software that impacts people's
-              lives.
-            </p>
-          </div>
-        </div>
-
-        <div className="container-fluid blue">
-          <div className="container text-center">
             <h2 className="subtitle">Education</h2>
             <p>
               Saint Joseph's College<br/>
@@ -37,7 +24,7 @@ export default React.createClass({
           </div>
         </div>
 
-        <div className="container-fluid white">
+        <div className="container-fluid blue">
           <div className="container text-center">
             <h2 className="subtitle">Curent Interest</h2>
             <p>
@@ -51,39 +38,37 @@ export default React.createClass({
         </div>
         {/*eventually planing to read all the info out of the JSON file or database*/}
 
-        <div className="container-fluid blue">
+        <div className="container-fluid white">
           <div className="container text-center">
             <h2 className="subtitle">Programing Languages</h2>
-              <div className="row">
-
-
-                  <div className="col-md-3">
-                    <Square
-                      title="Javascript"
-                      />
-                  </div>
-                  <div className="col-md-3">
-                    <Square
-                      title="Java"
-                      />
-                  </div>
-                  <div className="col-md-3">
-                    <Square
-                      title="Python"
-                      />
-                  </div>
-                  <div className="col-md-3">
-                    <Square
-                      title="C"
-                      />
-                  </div>
-
+              <div className="row text-center">
+                <Square
+                  title="Javascript"
+                  />
+                <Square
+                  title="Java"
+                  />
+                <Square
+                  title="Payton"
+                  />
+                <Square
+                  title="C"
+                  />
+                <Square
+                  title="C#"
+                  />
+                <Square
+                  title="HTML"
+                  />
+                <Square
+                  title="CSS"
+                  />
 
               </div>
           </div>
         </div>
 
-        <div className="container-fluid white">
+        <div className="container-fluid blue">
           <div className="container text-center">
             <h2 className="subtitle">Skills</h2>
             <p>
@@ -98,16 +83,32 @@ export default React.createClass({
           </div>
         </div>
 
-        <div className="container-fluid blue">
+        <div className="container-fluid white">
           <div className="container text-center">
             <h2 className="subtitle">Languages</h2>
+            <div className="row">
+              <h3>Fluent</h3>
+              <div className="col-md-3"/> {/* dummy div to create space */}
+              <Square
+                title="Serbian"
+                />
+              <Square
+                title="English"
+                />
+            </div>
+            <div className="row">
+              <h3>Good</h3>
+              <div className="col-md-12 square">
+                <p>Hungarian</p>
+              </div>
+            </div>
             <p>
               Fluent in Serbian and English, good in Hungarian, basic German
             </p>
           </div>
         </div>
 
-        <div className="container-fluid white">
+        <div className="container-fluid blue">
           <div className="container text-center">
             <h2 className="subtitle">Honors and Activities</h2>
             <p>
