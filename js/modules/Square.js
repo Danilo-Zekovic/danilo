@@ -10,8 +10,10 @@ export default React.createClass({
   render() {
     const title = this.props.title
     return (
-      <div className="square text-center">
-        <p>{title}</p>
+      <div className="col-md-3">
+        <div className="square text-center">
+          <p>{title}</p>
+        </div>
       </div>
     )
   }
