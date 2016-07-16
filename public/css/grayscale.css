@@ -37,14 +37,19 @@
 }
 
 .square {
-  padding: 1em;
-  margin: 0.4em;
+  width : 100%;
+  padding: 20%;
+  margin: 0 0 2em 0;
   color : white;
-  background-color: gray;
+  background-color: #80b3ff;
 }
 
 .scuare p {
   margine: 0;
+}
+
+.square:hover{
+  background-color: blue;
 }
 
 .user-img {
