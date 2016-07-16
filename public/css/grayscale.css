@@ -36,6 +36,17 @@
     -o-background-size: cover;
 }
 
+.experience {
+  background-color: #80b3ff;
+  color: white;
+  margin: 0.5em;
+}
+
+.experience:hover {
+  background-color: white;
+  color:black;
+}
+
 .square {
   width : 100%;
   padding: 20%;
