@@ -70,16 +70,37 @@ export default React.createClass({
 
         <div className="container-fluid blue">
           <div className="container text-center">
-            <h2 className="subtitle">Skills</h2>
-            <p>
-              Programing Languages: JavaScript, Java, Python, C, HTML, CSS
-              Conversant with Linux shell, edit, and build systems
-              Full-stack web app development tools, e.g. React, Node, Bootstrap, Atom
-              Experience with: JSON, jQuery, MongoDB, Angular
-              Single-page Applications (SPA) concepts and fundamentals
-              Excellent communication and people skills
-              Fluent in Serbian and English, good in Hungarian, basic German
-            </p>
+            <h2 className="subtitle">experience</h2>
+            <div className="row">
+              <div className="col-md-6">
+                <div className="col-md-12 experience text-center">
+                  <p>React</p>
+                </div>
+                <div className="col-md-12 experience text-center">
+                  <p>Angular</p>
+                </div>
+                <div className="col-md-12 experience text-center">
+                  <p>jQuery</p>
+                </div>
+                <div className="col-md-12 experience text-center">
+                  <p>JSON</p>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="col-md-12 experience text-center">
+                  <p>Node</p>
+                </div>
+                <div className="col-md-12 experience text-center">
+                  <p>Bootstrap</p>
+                </div>
+                <div className="col-md-12 experience text-center">
+                  <p>Atom</p>
+                </div>
+                <div className="col-md-12 experience text-center">
+                  <p>MongoDB</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
