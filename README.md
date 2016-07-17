@@ -12,4 +12,4 @@ So far this is a fun project.
 ## How to run the app
 Developers mode just npm start
 
-Prodution first webpack and than node server.js
+Production first webpack and than node server.js
