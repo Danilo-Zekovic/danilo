@@ -2,6 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Header from './Header'
 import Experience from './Experience'
+import { CardStack, Card } from 'react-cardstack'
+import work from './json/work'
+import Deck from './Deck'
+
 
 export default React.createClass({
   render() {
@@ -14,7 +18,7 @@ export default React.createClass({
 
       <div className="container-fluid white">
           <div className="container text-center">
-            <h2 className="subtitle">Nightwing Report</h2>
+            <h2 className="subtitle">Nightwing Report ć</h2>
             <p>Although I aspire to one day change the world with my code, one
               of the biggest passions in my life is learning. I want to start my
               career by tackling problems for my clients and growing in my
@@ -27,48 +31,33 @@ export default React.createClass({
 
         <div className="container-fluid blue">
 
-          <Experience
-            title="O’Reilly OSCON"
-            date="May 2016"
-            jobTitle="Tutorial"
-            position="Co-Presenter"
-            technologies="JavaScript, React, Node.js, Express, Babel, Webpack, GrpahQL"
-            project="Desktop app that has as input and output a XML file. It
-            translates words in the XML file from/to English or Spanish. I was
-            provided with CSV file that contained English words and its
-            translations to Spanish. Input files contained at least 20k or 30k
-            words that needed to be translated."
-          />
+        	<div className="container cardstack">
+        		<CardStack
+        			height={340}
+        			width="100%"
+        			background="#0052cc"
+        			hoverOffset={25}>
 
-          <Experience
-            title="HintTech"
-            date="May-June 2015"
-            jobTitle="Internship"
-            position="Intern"
-            technologies="C#, Visual Studio, JavaScript"
-            project="I am focused on keeping up with new technologies. The notion of a
-            “web page” is undergoing revolutionary change, lines are blurring
-            between client and server, and the importance of JavaScript
-            continues to grow. I cannot predict how these things will come
-            together, but I know this is the path that I want to be on."
-          />
+        			{work.map((experience, i) =>
+        				<Card
+        					key={i}
+        					background={'#2980B9'}>
 
-          <Experience
-            title="DMS Schneider Electic"
-            date="June 2014"
-            jobTitle="Internship"
-            position="Intern"
-            technologies="Java, Eclipse, XML"
-            project="Desktop app that has as input and output a XML file. It
-            translates words in the XML file from/to English or Spanish. I was
-            provided with CSV file that contained English words and its
-            translations to Spanish. Input files contained at least 20k or 30k
-            words that needed to be translated."
-          />
+                  <Deck
+                    date= {experience.date}
+                  	title= {experience.title}
+                  	jobTitle= {experience.jobTitle}
+                  	position= {experience.position}
+                  	location= {experience.location}
+                  	technologies= {experience.technologies}
+                  	project= {experience.project}
+                    />
+        				</Card>
+        			)}
 
-
+        		</CardStack>
+        	</div>
         </div>
-
       </div>
     )
   }
