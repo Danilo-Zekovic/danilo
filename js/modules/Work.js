@@ -33,7 +33,7 @@ export default React.createClass({
 
         	<div className="container cardstack">
         		<CardStack
-        			height={340}
+        			height={500}
         			width="100%"
         			background="#0052cc"
         			hoverOffset={25}>
