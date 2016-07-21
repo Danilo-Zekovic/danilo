@@ -9,7 +9,7 @@ export default React.createClass({
             <div className="container">
               <div className="row">
                 <div className="col-md-8 col-md-offset-2">
-                  <h1 className="brand-heading">Coming Soon</h1>
+                  <h1 className="brand-heading">Danilo Zeković</h1>
                   <p className="intro-text">Just example text and pictures</p>
                 </div>
               </div>
