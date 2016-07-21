@@ -35,7 +35,7 @@ const work = [{
 	position: 'Intern',
 	location: 'Novi Sad, Serbia',
 	technologies: 'Java, Eclipse, XML',
-	project: 'Desktop app that has as input and output a XML file. It	translates words in the XML file from/to English or Spanish. I was provided with CSV file that contained English words and its	translations to Spanish. Input files contained at least 20k or 30k words that needed to be translated.'
+	project: 'Desktop app that inputs and outputs as an XML file. It	translated words in the XML file from/to English or Spanish. I was provided a CSV file that contained English words and its	translations to Spanish. Input files contained anywhere from 20,000 to over 100,000 words that required translating.'
 }];
 
 export default work;
