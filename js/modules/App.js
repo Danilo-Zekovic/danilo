@@ -61,7 +61,7 @@ export default React.createClass({
                 <i className="fa fa-bars"></i>
               </button>
               <a className="navbar-brand page-scroll" href="/">
-                <i className="fa fa-globe"></i>  <span className="light">Danilo</span> Zekovic
+                <i className="fa fa-globe"></i>  <span className="light">Danilo</span> Zeković
               </a>
             </div>
 
