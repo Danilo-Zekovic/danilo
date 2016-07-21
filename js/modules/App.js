@@ -84,7 +84,7 @@ export default React.createClass({
         </nav>
         {this.props.children}
         <footer className="footer container-fluid text-center">
-          <p>Copyright © Danilo Zekovic 2016</p>
+          <p>Copyright © Danilo Zeković 2016</p>
           <p>dzv9776@saintjoe.edu</p>
           <p>Personal webpage</p>
           <div>
