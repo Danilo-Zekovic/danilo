@@ -30,7 +30,7 @@ export default React.createClass({
         <hr/>
         <h4>Project</h4>
         <p>
-          <span className="light">Description:</span> {project}
+          <b>Description:</b> {project}
         </p>
         <hr/>
       </div>
