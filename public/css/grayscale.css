@@ -37,6 +37,10 @@ CardStack {
   margin-right: 8em;
 }
 
+.card p {
+  padding: 0 2em;
+}
+
 .statment {
   display: table-cell;
   text-align: center;
