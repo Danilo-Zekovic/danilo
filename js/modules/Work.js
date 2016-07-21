@@ -18,7 +18,7 @@ export default React.createClass({
 
       <div className="container-fluid white">
           <div className="container text-center">
-            <h2 className="subtitle">Nightwing Report ć</h2>
+            <h2 className="subtitle">Nightwing Report</h2>
             <p>Although I aspire to one day change the world with my code, one
               of the biggest passions in my life is learning. I want to start my
               career by tackling problems for my clients and growing in my
