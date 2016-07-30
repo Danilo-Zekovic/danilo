@@ -74,7 +74,7 @@ export default React.createClass({
             <div className="row">
               <div className="col-md-6">
                 <div className="col-md-12 experience text-center">
-                  <p>React</p>
+                  <a href="https://facebook.github.io/react/" target="_blank"><p>React</p></a>
                 </div>
                 <div className="col-md-12 experience text-center">
                   <p>Angular</p>
@@ -108,24 +108,30 @@ export default React.createClass({
           <div className="container text-center">
             <h2 className="subtitle">Languages</h2>
             <div className="row">
-              <h3>Fluent</h3>
-              <div className="col-md-3"/> {/* dummy div to create space */}
-              <Square
-                title="Serbian"
-                />
-              <Square
-                title="English"
-                />
-            </div>
-            <div className="row">
-              <h3>Good</h3>
-              <div className="col-md-12 square">
-                <p>Hungarian</p>
+              <div className="col-md-1"><h4>Fluent:</h4></div> {/* dummy div to create space */}
+              <div className="col-md-2">
+                <div className="square text-center">
+                  <p>Serbian</p>
+                </div>
+              </div>
+              <div className="col-md-2">
+                <div className="square text-center">
+                  <p>English</p>
+                </div>
+              </div>
+              <div className="col-md-1"><h4>Good:</h4></div>
+              <div className="col-md-2">
+                <div className="square text-center">
+                  <p>Hungarian</p>
+                </div>
+              </div>
+              <div className="col-md-1"><h4>Basic:</h4></div>
+              <div className="col-md-2">
+                <div className="square text-center">
+                  <p>German</p>
+                </div>
               </div>
             </div>
-            <p>
-              Fluent in Serbian and English, good in Hungarian, basic German
-            </p>
           </div>
         </div>
 
