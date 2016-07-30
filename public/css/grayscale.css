@@ -69,6 +69,14 @@ CardStack {
   color:black;
 }
 
+.experience a {
+  color: white;
+}
+
+.experience a:hover {
+  color: black;
+}
+
 .square {
   width : 100%;
   padding: 20%;
@@ -123,6 +131,7 @@ CardStack {
 
 .subtitle {
   margin: 1em 0 0 0;
+  padding-bottom: 0.6em;
 }
 
 .footer {
