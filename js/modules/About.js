@@ -77,27 +77,27 @@ export default React.createClass({
                   <a href="https://facebook.github.io/react/" target="_blank"><p>React</p></a>
                 </div>
                 <div className="col-md-12 experience text-center">
-                  <p>Angular</p>
+                  <a href="https://angularjs.org/" target="_blank"><p>Angular</p></a>
                 </div>
                 <div className="col-md-12 experience text-center">
-                  <p>jQuery</p>
+                  <a href="https://jquery.com/" target="_blank"><p>jQuery</p></a>
                 </div>
                 <div className="col-md-12 experience text-center">
-                  <p>JSON</p>
+                  <a href="http://www.json.org/" target="_blank"><p>JSON</p></a>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="col-md-12 experience text-center">
-                  <p>Node</p>
+                  <a href="https://nodejs.org/en/" target="_blank"><p>Node</p></a>
                 </div>
                 <div className="col-md-12 experience text-center">
-                  <p>Bootstrap</p>
+                  <a href="http://getbootstrap.com/" target="_blank"><p>Bootstrap</p></a>
                 </div>
                 <div className="col-md-12 experience text-center">
-                  <p>Atom</p>
+                  <a href="https://atom.io/" target="_blank"><p>Atom.io</p></a>
                 </div>
                 <div className="col-md-12 experience text-center">
-                  <p>MongoDB</p>
+                  <a href="https://www.mongodb.com/" target="_blank"><p>MongoDB</p></a>
                 </div>
               </div>
             </div>
