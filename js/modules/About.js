@@ -14,13 +14,21 @@ export default React.createClass({
         />
 
       <div className="container-fluid white">
-          <div className="container text-center">
-            <h2 className="subtitle">Education</h2>
-            <p>
-              Saint Joseph's College<br/>
-              B.S. Computer Science, Minor: Mathematics (May 2016)<br/>
-              3.91 GPA (4.00 scale)
-            </p>
+          <div className="container">
+            <h2 className="subtitle text-center">Education</h2>
+            <div className="row">
+              <div className="col-md-4 ">
+                <img src="http://www.cur.org/assets/1/7/Twin_Towers_horizontal_color.jpg" className="img-responsive"/>
+              </div>
+              <div className="col-md-7">
+                <p className="sjc-logo">
+                  Saint Joseph's College<br/>
+                  B.S. Computer Science, Minor: Mathematics (May 2016)<br/>
+                  3.91 GPA (4.00 scale)
+                </p>
+              </div>
+            </div>
+
           </div>
         </div>
 

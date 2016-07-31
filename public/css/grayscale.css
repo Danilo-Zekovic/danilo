@@ -19,6 +19,13 @@
   color : black;
 }
 
+.sjc-logo {
+  display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+
 CardStack {
   margin: 1em 1em;
 }
@@ -90,7 +97,7 @@ CardStack {
 }
 
 .square:hover{
-  background-color: blue;
+  background-color: #0052cc;
 }
 
 .user-img {
