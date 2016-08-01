@@ -17,12 +17,12 @@ export default React.createClass({
           <div className="container">
             <h2 className="subtitle text-center">Education</h2>
             <div className="row">
-              <div className="col-md-4 ">
+              <div className="col-md-4 col-xs-12">
                 <img src="http://www.cur.org/assets/1/7/Twin_Towers_horizontal_color.jpg" className="img-responsive"/>
               </div>
               <div className="col-md-7">
                 <p className="sjc-logo">
-                  Saint Joseph's College<br/>
+                  Saint Joseph's College, Rensselaer, IN<br/>
                   B.S. Computer Science, Minor: Mathematics (May 2016)<br/>
                   3.91 GPA (4.00 scale)
                 </p>
@@ -51,7 +51,7 @@ export default React.createClass({
             <h2 className="subtitle">Programing Languages</h2>
               <div className="row text-center">
                 <Square
-                  title="Javascript"
+                  title="JavaScript"
                   />
                 <Square
                   title="Java"
