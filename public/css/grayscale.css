@@ -9,7 +9,7 @@
 =============================================
 */
 
-.blue {
+/*.blue {
   background-color: #0052cc;
   color : white;
 }
@@ -19,14 +19,14 @@
   color : black;
 }
 
-.contact-logo {
+/*.contact-logo {
   margin : 0.4em;
 }
 
 .sjc-logo {
   /*display: inline-block;
   vertical-align: middle;
-  float: none;*/
+  float: none;
   padding: 3em;
 }
 
@@ -61,7 +61,7 @@ CardStack {
 }
 
 .u-img {
-    /* TODO make it work so that img doesn't have to be loaded from the web */
+    /* TODO make it work so that img doesn't have to be loaded from the web
     background: url(../img/daniloOSCON.jpg) no-repeat top center scroll;
     background-color: #000;
     -webkit-background-size: cover;
@@ -111,7 +111,7 @@ CardStack {
 
 .github-logo {
   max-height: 14em;
-  margin: 0 auto; /* to center the logo */
+  margin: 0 auto; /* to center the logo 
   padding: 2em;
 }
 
@@ -152,7 +152,7 @@ CardStack {
 
 .footer i {
   padding : 0.4em;
-}
+}*/
 /*
 =============================================
 */

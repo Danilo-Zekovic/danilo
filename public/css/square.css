@@ -1,0 +1,21 @@
+/*
+* Danilo Zekovic
+* www.danilozekovic.com
+* Style for Square element
+*/
+
+.square {
+  width : 100%;
+  padding: 20%;
+  margin: 0 0 2em 0;
+  color : white;
+  background-color: #80b3ff;
+}
+
+.scuare p {
+  margine: 0;
+}
+
+.square:hover{
+  background-color: #0052cc;
+}

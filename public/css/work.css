@@ -1,0 +1,27 @@
+/*
+* Danilo Zekovic
+* www.danilozekovic.com
+* Style for Work view
+*/
+
+CardStack {
+  margin: 1em 1em;
+}
+
+.cardstack {
+  padding: 2em 2em;
+}
+
+.card {
+  border-top-style: solid;
+  border-width: 5px;
+}
+
+.card hr {
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
+.card p {
+  padding: 0 2em;
+}

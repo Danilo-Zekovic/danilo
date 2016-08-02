@@ -1,0 +1,28 @@
+/*
+* Danilo Zekovic
+* www.danilozekovic.com
+* Style that appeares regardles of view
+*/
+
+.blue {
+  background-color: #0052cc;
+  color : white;
+}
+
+.white {
+  background-color: white;
+  color : black;
+}
+
+.subtitle {
+  margin: 1em 0 0 0;
+  padding-bottom: 0.6em;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer i {
+  padding : 0.4em;
+}

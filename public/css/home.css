@@ -1,0 +1,58 @@
+/*
+* Danilo Zekovic
+* www.danilozekovic.com
+* Style for Home view
+*/
+
+.statment {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding : 5em;
+}
+
+.u-img {
+    /* TODO make it work so that img doesn't have to be loaded from the web */
+    background: url(../img/daniloOSCON.jpg) no-repeat top center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.user-img {
+  padding: 4em;
+}
+
+.github-logo {
+  max-height: 14em;
+  margin: 0 auto; /* to center the logo */
+  padding: 2em;
+}
+
+.tech-logo {
+  height: 20em;
+  width: auto;
+  padding: 2em;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.nodejs-icon {
+  background: url(../img/nodejs-color.svg) no-repeat top center scroll;
+}
+
+.bootstrap-icon {
+  background: url(../img/bootstrap-color.svg) no-repeat top center scroll;
+}
+
+.atom-icon {
+  background: url(../img/atom-color.svg) no-repeat top center scroll;
+}
+
+.reactjs-icon {
+
+  margin: 0 auto;
+  padding: 1em 0 2em 0;
+}

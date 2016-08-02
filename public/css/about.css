@@ -1,0 +1,31 @@
+/*
+* Danilo Zekovic
+* www.danilozekovic.com
+* Style for About view
+*/
+
+.sjc-logo {
+  /*display: inline-block;
+  vertical-align: middle;
+  float: none;*/
+  padding: 3em;
+}
+
+.experience {
+  background-color: #80b3ff;
+  color: white;
+  margin: 0.5em;
+}
+
+.experience:hover {
+  background-color: white;
+  color:black;
+}
+
+.experience a {
+  color: white;
+}
+
+.experience a:hover {
+  color: black;
+}
