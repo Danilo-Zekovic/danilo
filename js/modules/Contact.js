@@ -14,21 +14,20 @@ export default React.createClass({
 
       <div className="container-fluid white">
           <div className="container text-center">
-            <h2 className="subtitle">Martian Comunication</h2>
             <div className="row">
               <div className="col-md-12">
-                  <i className="fa fa-envelope fa-3x" aria-hidden="true"></i>
+                  <i className="fa fa-envelope fa-3x contact-logo" aria-hidden="true"></i>
                   <a><p>dzv9776@saintjoe.edu</p></a>
               </div>
               <div className="col-md-12">
-                <a href="https://github.com/Danilo-Zekovic/danilo" target="_blank">
-                  <i className="fa fa-facebook-square fa-5x" aria-hidden="true"></i>
-                </a>
-                <a href="https://github.com/Danilo-Zekovic/danilo" target="_blank">
-                  <i className="fa fa-linkedin-square fa-5x" aria-hidden="true"></i>
-                </a>
                 <a href="https://github.com/Danilo-Zekovic" target="_blank">
-                  <i className="fa fa-github-square fa-5x" aria-hidden="true"></i>
+                  <i className="fa fa-github-square fa-5x contact-logo" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/danilo-zekovic-7a85b7b9" target="_blank">
+                  <i className="fa fa-linkedin-square fa-5x contact-logo" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.facebook.com/danilo.zekovic.5" target="_blank">
+                  <i className="fa fa-facebook-square fa-5x contact-logo" aria-hidden="true"></i>
                 </a>
               </div>
             </div>
