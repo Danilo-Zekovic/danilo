@@ -19,10 +19,15 @@
   color : black;
 }
 
+.contact-logo {
+  margin : 0.4em;
+}
+
 .sjc-logo {
-  display: inline-block;
-    vertical-align: middle;
-    float: none;
+  /*display: inline-block;
+  vertical-align: middle;
+  float: none;*/
+  padding: 3em;
 }
 
 
