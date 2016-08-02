@@ -1,0 +1,15 @@
+/*
+* Danilo Zekovic
+* www.danilozekovic.com
+* this file unites all the module css
+*/
+
+@import "home.css";
+@import "about.css";
+@import "work.css";
+@import "contact.css";
+/* the page as a whole, elements that apear regardles of view */
+@import "main.css";
+
+/*TODO for now I will put it here but it will need some cleaning up */
+@import "grayscale.css";
