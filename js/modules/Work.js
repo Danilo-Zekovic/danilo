@@ -18,13 +18,10 @@ export default React.createClass({
 
       <div className="container-fluid white">
           <div className="container text-center">
-            <h2 className="subtitle">Nightwing Report</h2>
-            <p>Although I aspire to one day change the world with my code, one
-              of the biggest passions in my life is learning. I want to start my
-              career by tackling problems for my clients and growing in my
-              experience with each line of code. I enjoy expressing creativity,
-              which I hope to use in creating software that impacts people's
-              lives.
+            <h2 className="subtitle">Portofolio Work</h2>
+            <p>Here you can find the projects that I specifically worked on in the
+              past few years. My minor projects and source codes can be found on my
+              <a src="https://github.com/Danilo-Zekovic"> GitHub</a>. 
             </p>
           </div>
         </div>
